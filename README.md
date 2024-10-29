@@ -57,6 +57,8 @@ Paso 3: Crear el contenedor de pgAdmin
 Creamos el contenedor para pgAdmin, que servirá como interfaz gráfica para administrar la base de datos:
 docker run -d --name pgadmin --network my_network -e PGADMIN_DEFAULT_EMAIL=freddypaguay20@gmail.com -e PGADMIN_DEFAULT_PASSWORD=admin -p 8089:80 dpage/pgadmin4
 
+![Contenedores](img1.png)
+
 Paso 4: Configurar la conexión en pgAdmin
 Accedemos a pgAdmin desde el navegador en http://localhost:8089.
 Iniciamos sesión utilizando el correo y la contraseña configurados en el paso anterior.
