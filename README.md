@@ -82,6 +82,8 @@ Navegamos a Schemas > public > Tables, hacemos clic derecho en Tables y seleccio
 Le damos un nombre a la tabla, como tabla_prueba, y agregamos algunas columnas (por ejemplo, una columna id de tipo entero y una columna nombre de tipo texto).
 Guardamos la tabla y verificamos que se haya creado correctamente.
 
+![Verificacion](img2.png)
+
 ### 7. Resultados esperados
 Al finalizar estos pasos, tenemos dos contenedores (PostgreSQL y pgAdmin) ejecutándose en la misma red local y comunicándose sin problemas. Pudimos conectarnos a PostgreSQL desde pgAdmin, crear una base de datos y añadir una tabla, confirmando que la configuración de red y los permisos están correctamente establecidos.
 
